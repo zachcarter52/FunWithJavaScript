@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<script src="fancifymytext.js"></script>
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+        <form>
+		<fieldset>
+            <legend>Text</legend>
+            <textarea rows="4" cols="30" id="textarea"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Fancify</legend>
+            <input type="radio" id="FancyShmancy" onchange="makeFancy()" />
+            <label for="FancyShmancy">FancyShmancy</label>
+            <input type="radio" id="BoringBetty" onchange="makeBoring()"/>
+            <label for="BoringBetty">BoringBetty</label>
+        </fieldset>
+
+    </form>
+    <input type="button" id="FancifyButton" value="Bigger!" onclick="fontSizeChange()"/>
+    <input type="button" id="mooButton" value="Moo" onclick="moo()"/>
+	</body>
+</html>
