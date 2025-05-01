@@ -1,2 +1,2 @@
 # FunWithJavaScript
-CSC193A 
+CSC193A -- Assignment 5
