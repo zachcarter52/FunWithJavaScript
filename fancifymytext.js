@@ -44,3 +44,8 @@ function moo() {
     let newText = sentences.join(". ");
     textArea.value = newText;
 }
+
+window.onload = function () {
+    document.getElementById("FancyShmancy").addEventListener("click", makeFancy);
+    document.getElementById("BoringBetty").addEventListener("click", makeBoring);
+};
